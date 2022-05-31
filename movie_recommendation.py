@@ -7,11 +7,9 @@ from tkinter import *
 
 
 movies= pd.read_csv("movies.csv",usecols=['movieId','title'])
-movies
 
 
 ratings=pd.read_csv("ratings.csv",usecols=['userId','movieId','rating'])
-ratings
 
 
 def cosine(test,fd):
